@@ -1,29 +1,10 @@
-# gamefindr
+#### About
 
-This template should help get you started developing with Vue 3 in Vite.
+**gamefindr** is a simple application for searching games and information about them.
 
-## Recommended IDE Setup
+#### Technologies and Tools
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- ⚡ [Vite](https://vitejs.dev)
+- ✔️ [Vue](https://vuejs.org)
+- 🗺️ [Vue Router](https://router.vuejs.org)
+- 🎮 [FreeToGame API](https://www.freetogame.com/api-doc)
