@@ -10,7 +10,6 @@
     "prettier": "prettier --write './*/**.{vue,js}'"
   },
   "dependencies": {
-    "styled-components": "^6.1.9",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },

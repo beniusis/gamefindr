@@ -1,6 +1,25 @@
+:root {
+  --clr-brandy-50: #fbf8f1;
+  --clr-brandy-100: #f7eedd;
+  --clr-brandy-200: #eedaba;
+  --clr-brandy-300: #e6c89e;
+  --clr-brandy-400: #d69e61;
+  --clr-brandy-500: #cc8543;
+  --clr-brandy-600: #be7038;
+  --clr-brandy-700: #9e5830;
+  --clr-brandy-800: #7f472d;
+  --clr-brandy-900: #673c27;
+  --clr-brandy-950: #371e13;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--clr-brandy-100);
+  padding: 2rem;
 }
