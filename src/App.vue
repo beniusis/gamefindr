@@ -28,7 +28,12 @@ h1 {
 }
 
 .link {
-  color: var(--clr-brandy-600);
+  color: var(--clr-brandy-900);
   text-decoration: none;
+  transition: all 300ms ease-out;
+
+  &:hover {
+    color: var(--clr-brandy-400);
+  }
 }
 </style>
