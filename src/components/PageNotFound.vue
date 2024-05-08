@@ -37,6 +37,8 @@ import { RouterLink } from 'vue-router';
 
 .text {
   position: absolute;
+  top: 35%;
+  transform: translateY(-35%);
   transform: rotate(12deg);
   border-radius: 0.25rem;
   background-color: var(--clr-brandy-300);
