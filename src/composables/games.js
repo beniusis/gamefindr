@@ -28,7 +28,7 @@ export const useGames = () => {
 export const useGame = (id) => {
   const loading = ref(false);
   const error = ref(false);
-  const game = ref([]);
+  const game = ref({});
 
   onMounted(async () => {
     try {
