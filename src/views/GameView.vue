@@ -42,19 +42,49 @@ watchEffect(() => {
     <div v-if="game.minimum_system_requirements" class="minimum-requirements">
       <span class="heading">Minimum requirements</span>
       <span
-        >Operating System: <strong>{{ game.minimum_system_requirements.os }}</strong></span
+        >Operating System:
+        <strong>{{
+          game.minimum_system_requirements.os === '?' ||
+          game.minimum_system_requirements.os === null
+            ? 'Not Listed'
+            : game.minimum_system_requirements.os
+        }}</strong></span
       >
       <span
-        >Processor: <strong>{{ game.minimum_system_requirements.processor }}</strong></span
+        >Processor:
+        <strong>{{
+          game.minimum_system_requirements.processor === '?' ||
+          game.minimum_system_requirements.processor === null
+            ? 'Not Listed'
+            : game.minimum_system_requirements.processor
+        }}</strong></span
       >
       <span
-        >Memory: <strong>{{ game.minimum_system_requirements.memory }}</strong></span
+        >Memory:
+        <strong>{{
+          game.minimum_system_requirements.memory === '?' ||
+          game.minimum_system_requirements.memory === null
+            ? 'Not Listed'
+            : game.minimum_system_requirements.memory
+        }}</strong></span
       >
       <span
-        >Graphics: <strong>{{ game.minimum_system_requirements.graphics }}</strong></span
+        >Graphics:
+        <strong>{{
+          game.minimum_system_requirements.graphics === '?' ||
+          game.minimum_system_requirements.graphics === null
+            ? 'Not Listed'
+            : game.minimum_system_requirements.graphics
+        }}</strong></span
       >
       <span
-        >Storage: <strong>{{ game.minimum_system_requirements.storage }}</strong></span
+        >Storage:
+        <strong>{{
+          game.minimum_system_requirements.storage === '?' ||
+          game.minimum_system_requirements.storage === null
+            ? 'Not Listed'
+            : game.minimum_system_requirements.storage
+        }}</strong></span
       >
     </div>
     <div class="images">
