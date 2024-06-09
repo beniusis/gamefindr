@@ -54,5 +54,5 @@ npm run dev
 ### Format with Prettier
 
 ```sh
-npm run prettier
+npm run format
 ```
