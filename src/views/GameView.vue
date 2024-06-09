@@ -102,7 +102,6 @@ watchEffect(() => {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-top: 2rem;
 }
 
 .information,
