@@ -22,7 +22,7 @@ watchEffect(() => {
   <ErrorMessage v-else-if="!loading && error" />
   <div v-else class="container">
     <div class="information">
-      <span class="heading">Information</span>
+      <span class="heading">General Information</span>
       <span
         >Game: <strong>{{ game.title }}</strong>
       </span>
@@ -89,7 +89,7 @@ watchEffect(() => {
     </div>
     <div class="images">
       <div v-for="screenshot in game.screenshots" class="image-container" :key="screenshot.id">
-        <img :src="screenshot.image" alt />
+        <img :src="screenshot.image" alt loading="lazy" />
       </div>
     </div>
   </div>
@@ -102,6 +102,7 @@ watchEffect(() => {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-top: 2rem;
 }
 
 .information,
@@ -128,7 +129,7 @@ watchEffect(() => {
 }
 
 span.heading {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 800;
 }
 

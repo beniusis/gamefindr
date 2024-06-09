@@ -15,7 +15,7 @@ defineProps({
     role="button"
     @click="$router.push(`/games/${game.id}`)"
   >
-    <img class="image" :src="game.thumbnail" alt />
+    <img class="image" :src="game.thumbnail" alt loading="lazy" />
     <div class="information">
       <h2 class="title">{{ game.title }}</h2>
       <span class="developer">{{ game.developer }}</span>

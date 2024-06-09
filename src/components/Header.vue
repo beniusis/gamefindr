@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1><a class="link" href="./">gamefindr</a></h1>
+    <h1><a class="link" href="/gamefindr">gamefindr</a></h1>
   </header>
 </template>
 
